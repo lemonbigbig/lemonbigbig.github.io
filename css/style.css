@@ -17,20 +17,14 @@
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
 }
 @font-face {
-  font-family: 'LXGWWenKai';
-  src: url("/src/font/LXGWWenKai-Regular.ttf");
+  font-family: 'UbuntuMono';
+  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
 }
 @font-face {
-  font-family: 'Sarasa Mono SC';
-  src: url("/src/font/sarasa-mono-sc-nerd-regular.ttf");
-  font-weight: 'normal';
-  font-style: 'normal';
-}
-@font-face {
-  font-family: 'Noto Serif SC';
-  src: url("/src/font/NotoSerifSC-Black.otf");
+  font-family: 'Varela Round';
+  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf");
   font-weight: 'black';
   font-style: 'normal';
 }
@@ -1313,11 +1307,11 @@ p.p.subtitle:first-child {
 }
 span.p.logo,
 p.p.logo {
-  font-family: "Noto Serif SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
+  font-family: "Noto Serif SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Serif, Helvetica, monospace;
 }
 span.p.code,
 p.p.code {
-  font-family: "JetBrains Mono", "Sarasa Mono SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, courier, sans-serif;
+  font-family: "JetBrains Mono", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, monospace, courier, sans-serif;
 }
 span.p.left,
 p.p.left {
@@ -1747,7 +1741,7 @@ pre {
   display: block;
   background: var(--color-block);
   font-size: 0.8125rem;
-  font-family: "JetBrains Mono", "Sarasa Mono SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, courier, sans-serif;
+  font-family: "JetBrains Mono", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, monospace, courier, sans-serif;
   border-radius: 4px;
   line-height: 1.5;
   -webkit-font-smoothing: auto;
@@ -2095,7 +2089,7 @@ pre {
   color: #e24f5a;
 }
 .article mjx-container {
-  font-family: "JetBrains Mono", "Sarasa Mono SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, courier, sans-serif;
+  font-family: "JetBrains Mono", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, monospace, courier, sans-serif;
   padding: 16px 8px;
   border-radius: 4px;
   min-width: 0 !important;
@@ -2264,7 +2258,7 @@ div.fancybox .image-caption:empty {
   max-width: 500px;
   border-radius: 4px;
   color: var(--color-text);
-  font-family: LXGWWenKai, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: "Noto Sans SC", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Serif, Menlo, Monaco, monospace, sans-serif;
 }
 .aplayer .aplayer-list {
   text-align: left;
@@ -2290,7 +2284,7 @@ div.fancybox .image-caption:empty {
   -webkit-user-select: none;
   user-select: none;
   -webkit-appearance: none;
-  font-family: Menlo, "JetBrains Mono", "Sarasa Mono SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, courier, sans-serif;
+  font-family: Menlo, "JetBrains Mono", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, monospace, courier, sans-serif;
   font-size: 11px;
   font-weight: bold;
   padding: 4px 8px;
@@ -2531,7 +2525,7 @@ article#comments #valine_container .vcards .vcontent blockquote {
 }
 article#comments #valine_container .vcards .vcontent code {
   color: var(--color-p);
-  font-family: "JetBrains Mono", "Sarasa Mono SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, courier, sans-serif;
+  font-family: "JetBrains Mono", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, monospace, courier, sans-serif;
 }
 article#comments #valine_container .vcards .vcontent pre {
   background: var(--color-codeblock);
@@ -2902,7 +2896,7 @@ article#tag .all-tags ul li span:before {
   overflow: auto;
   background: var(--color-codeblock);
   font-size: 0.8125rem;
-  font-family: "JetBrains Mono", "Sarasa Mono SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, courier, sans-serif;
+  font-family: "JetBrains Mono", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, monospace, monospace, courier, sans-serif;
   border: 1px solid #96dbfb;
   padding: 16px;
   border-radius: 4px;
@@ -2920,7 +2914,7 @@ article#tag .all-tags ul li span:before {
   color: rgba(68,68,68,0.9);
 }
 .article code {
-  font-family: LXGWWenKai, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: "Noto Sans SC", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Serif, Menlo, Monaco, monospace, sans-serif;
 }
 .article code:not([class]) {
   word-break: break-all;
